@@ -1,22 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project Structure Overview - TravelFlow
 
-## Getting Started
+TravelFlow is a full-stack, collaborative whiteboard web app built with Next.js, Typescript, and Convex.
+The architecture emphasizes modularity, scability, and real-time collaboration.
 
-First, run the development server:
+## Development
+
+To run the app locally:
 
 ```bash
+# Start Convex backend
+npx convex dev
+
+# In a new terminal, start Next.js frontend
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
@@ -36,14 +35,24 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # travelflow
 
-# Tech Stack 
+# Key Structure
 
-- framwork: Next.js
-- Styling: Tailwind CSS
-- Fonts: To be determine so far // Geist
-- Icons: Lucide React
-- Auth: Clerk.dev
-- Hooks: usehooks-ts
+* app/ : Main rounting and layout logic using the App Router. Features nested routes like dashboard and dynamic board pages with decated UI components.
+* components/ : Shared UI elements (ui/), modals (modals/), and functional elements (auth/,action.tsx, etc.).
+* convex/ : Backedn logic using the Convex platform for real-time data handling, including board and user schema.
+* hooks/ : Custom React hooks to abstract API logic and state management. 
+* providers/ : Context providers  for global app state, including modals and Convex client setup.
+* lib/ : Utility functions.
+* store/ : Zustand store for UI state (e.g., rename modal).
+* public/ : Static assets like SVGs and placeholders.
+
+# Features
+
+* Modular and reusable dashboard/board components
+* Real-time collaboration with Convex
+* Clean UI with custom dialogs, tooltips, inputs
+* Scalable design pattern with domain separation
+
 
 # Folder Strucutre
 
@@ -150,6 +159,6 @@ Next.js Documentation = https://nextjs.org/docs
 
 Interactive Next.js Tutorial = https://nextjs.org/learn
 
-Clerk Documentation = 
+Clerk Documentation = https://clerk.com/docs
 
 Tailwind CSS Docs = https://tailwindcss.com/docs/installation/using-vite
