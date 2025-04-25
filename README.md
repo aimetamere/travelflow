@@ -46,6 +46,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## 🎒 Folder Strucutre 
 
+```
 travelflow/
 ├── app/
 │   ├── (dashboard)/
@@ -135,7 +136,7 @@ travelflow/
 ├── postcss.config.mjs
 ├── README.md
 └── tsconfig.json
-
+```
 
 ## Available Scripts 
 
