@@ -3,14 +3,23 @@
 👀 I am a student a Code University of applied science in Berlin, transitioning from a background in business management. I’m now channeling my problem-solving and analytical skills into web development.
 I'm passionate about building real-time, interactive web applications using Next.js, Convex, TypeScript, and Three.js. I began my programming journey by learning the fundamentals of C, which grounded me in low-level logic and performance. Over time, my curiosity led me to explore 3D web development, and I'm now focused on innovating in that space through projects like TravelFlow or a 3D visualisation book. 
 
-## Project Structure Overview - TravelFlow
+## TravelFlow 🌍✈️
 
-TravelFlow is a full-stack, collaborative whiteboard web app built with Next.js, Typescript, and Convex.
-The architecture emphasizes modularity, scability, and real-time collaboration.
+# A Real-Time Collaborative Travel Planning Web App
 
-## Development
+Welcome to TravelFlow, your go-to platform for interactive, real-time travel planning. Whether you’re traveling solo or with friends, plan, organize, and share your journey all in one collaborative space. Built with Next.js, TypeScript, and Convex, TravelFlow brings a smooth, engaging, and modular web experience to life, all while focusing on scalable and real-time collaboration.
 
-To run the app locally:
+## 🚀 Project Overview
+
+TravelFlow is designed to provide a rich, interactive whiteboard experience, where users can plan their trips, organize their boards, and collaborate with others in real time. From brainstorming itineraries to sketching maps, TravelFlow brings travel planning to a whole new level.
+
+The app’s architecture emphasizes modularity, scalability, and seamless collaboration, leveraging Convex for real-time updates, while offering an intuitive interface that makes planning feel like a breeze.
+
+## 🛠️ Development
+
+# Get Started Locally
+
+Clone this repo and follow the steps to run TravelFlow locally on your machine: https://github.com/aimetamere/travelflow.git
 
 ```bash
 # Start Convex backend
@@ -20,12 +29,29 @@ npx convex dev
 npm run dev
 ```
 
+Open http://localhost:3000 in your browser to see the app in action.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Fonts and Styling
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+TravelFlow uses the Geist font family, which is automatically optimized and loaded using next/font.
 
-## Key Structure
+## 🔑 Key Features
+
+# Real-Time Collaboration:
+
+Sync your boards and collaborate with others in real time using Convex. Make your travel plans as dynamic and interactive as the world itself.
+
+# Modular and Scalable Components:
+
+A flexible layout for boards and dashboards allows you to scale as your projects grow. Reusable components ensure consistency across the app.
+
+# Custom UI Elements:
+
+From dialogs to tooltips, inputs, and more, the UI is designed to be clean, intuitive, and customizable.
+
+# Liveblocks Integration for Canvas Collaboration:
+
+Work together on a canvas, planning your trips with drag-and-drop functionality, live edits, and seamless updates.
 
 * app/ : Main rounting and layout logic using the App Router. Features nested routes like dashboard and dynamic board pages with decated UI components.
 * components/ : Shared UI elements (ui/), modals (modals/), and functional elements (auth/,action.tsx, etc.).
@@ -44,7 +70,9 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 * Scalable design pattern with domain separation
 
 
-## 🎒 Folder Strucutre 
+## 🗂️ Folder Structure
+
+Here’s how TravelFlow is structured for clarity and scalability:
 
 ```
 travelflow/
@@ -56,87 +84,75 @@ travelflow/
 │   │       ├── board-list.tsx
 │   │       ├── empty-boards.tsx
 │   │       ├── empty-favorites.tsx
-│   │       ├── empty-org.tsx
-│   │       ├── empty-search.tsx
 │   │       ├── invite-button.tsx
 │   │       ├── navbar.tsx
-│   │       ├── new-board-button.tsx
-│   │       ├── org-sidebar.tsx
-│   │       ├── search-input.tsx
-│   │       ├── board-card/
-│   │       │   ├── footer.tsx
-│   │       │   ├── index.tsx
-│   │       │   └── overlay.tsx
-│   │       └── sidebar/
-│   │           ├── index.tsx
-│   │           ├── item.tsx
-│   │           ├── list.tsx
-│   │           └── new-button.tsx
+│   │       └── new-board-button.tsx
 │   └── board/
 │       └── [board]/
 │           ├── page.tsx
 │           └── _components/
 │               ├── canvas.tsx
 │               ├── info.tsx
-│               ├── participants.tsx
 │               └── toolbar.tsx
 ├── components/
 │   ├── action.tsx
-│   ├── confrim-modal.tsx
-│   ├── hint.tsx
-│   ├── room.tsx
-│   ├── auth/
-│   │   └── loading.tsx
 │   ├── modals/
-│   │   └── rename-modal.tsx
-│   └── ui/
-│       ├── alert-dialog.tsx
-│       ├── button.tsx
-│       ├── dialog.tsx
-│       ├── dropdown-menu.tsx
-│       ├── input.tsx
-│       ├── skeleton.tsx
-│       ├── sonner.tsx
-│       └── tooltip.tsx
+│   ├── ui/
 ├── convex/
-│   ├── _generated/
-│   │   ├── api.d.ts
-│   │   ├── api.js
-│   │   ├── dataModel.d.ts
-│   │   ├── server.d.ts
-│   │   └── server.js
-│   ├── README.md
-│   ├── tsconfig.json
-│   ├── auth.config.js
 │   ├── board.ts
 │   ├── boards.ts
 │   └── schema.ts
 ├── hooks/
 │   └── use-api-mutation.ts
-├── lib/
-│   └── utils.ts
-├── node_modules/
 ├── providers/
 │   ├── convex-client-provider.tsx
 │   └── modal-provider.tsx
 ├── public/
 │   ├── *.svg
 │   └── placeholders/
-│       └── *.svg
 ├── store/
 │   └── use-rename-model.ts
-├── components.json
-├── eslint.config.mjs
-├── liveblocks.config.ts
-├── middleware.ts
-├── next-env.d.ts
-├── nexxt.config.ts
-├── package-lock.json
-├── package.json
-├── postcss.config.mjs
 ├── README.md
-└── tsconfig.json
+├── tsconfig.json
+└── package.json
 ```
+
+## 🧩 Project Evolution
+
+# From Concept to Code
+
+TravelFlow's journey began with a foundational setup using Convex to handle the backend and Clerk for authentication. From there, we focused on building a functional board system that lets users create, share, and organize their travel plans.
+
+The real magic began when we integrated Liveblocks to power the collaborative canvas. Now, users can sketch, draw, and interact in real time—perfect for group planning!
+
+## What's Next
+
+* Design Refinements: Custom icons, UI polish, and branding to make the app even more user-friendly.
+
+* API Integrations: Soon, users will be able to integrate travel services like Booking, Google Flights, and more, directly onto their boards.
+
+## 🚧 Roadmap
+
+# Now:
+
+* Complete collaborative canvas functionality
+* Finalize Liveblocks integration for smoother real-time interaction
+
+# Next:
+
+* Polish UI with custom icons, branding, and theme adjustments
+
+# Soon:
+
+* Start negotiations and integration with travel service APIs for bookings and flight planning
+
+# Later: 
+
+* Full deployment with custom domain and hosting
+
+# Long Term:
+
+* Grow the team to expand TravelFlow's features and global reach 🚀
 
 ## Available Scripts 
 
@@ -144,30 +160,7 @@ travelflow/
 * npm run build - Build the project 
 * npm run start - Start production server 
 
-## 🚧 Project Evolution: From Idea to Reality (and Beyond)
-
-TravelFlow began by laying a solid foundation — connecting the backend with Convex, integrating Clerk for authentication, and ensuring a smooth developer experience. Once the engine was running, the focus shifted to building a responsive layout and a functional board system where users can create boards, invite collaborators, and mark favorites.
-
-Currently, development is centered around the interactive canvas, powered by Liveblocks, enabling both individual and real-time collaborative sessions.
-
-Up next: a design polish — custom icons, a sharp logo, and UI refinements.
-Then, we shift gears into travel mode ✈️ — integrating APIs like Booking, Google Flights, and more, so users can plan trips directly on their canvas.
-
-## 🗓️ Roadmap
-
-🔄 Now – Complete the collaborative canvas and Liveblocks integration
-
-🎨 Next – Polish UI, icons, and branding
-
-🔍 Soon – Explore and negotiate API access with travel service providers
-
-🚀 Later – Integrate APIs, refine logic, and prep for deployment
-
-🌐 Launch – Set up custom domain and hosting
-
-👥 Long Term – Form a project team if things get serious 💼
-
-# Learn More
+# 📚 Resources
 
 Next.js Documentation = https://nextjs.org/docs
 
@@ -177,8 +170,6 @@ Clerk Documentation = https://clerk.com/docs
 
 Tailwind CSS Docs = https://tailwindcss.com/docs/installation/using-vite
 
-## Deploy on Vercel
+## 🌐 Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This need to be done 
