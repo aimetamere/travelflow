@@ -107,3 +107,36 @@ Visit http://localhost:3000 to see TravelFlow in action 🚀
  Offline mode (stretch goal)
 
 (not done)
+
+# 🧑‍💻 Contributing
+
+We all ❤️ contributions from the community! Whether you're fixing bugs, adding features, or improving documentation, your input makes TravelFlow better for everyone. Here’s how to get started:
+
+1. Fork the Repository: Click the "Fork" button on GitHub.
+
+2. Create a Branch: git checkout -b feature/your-awesome-feature.
+
+3. Commit Changes: git commit -m "Add something cool".
+
+4. Push to Your Fork: git push origin feature/your-awesome-feature.
+
+5. Open a Pull Request: Describe your changes and submit!
+
+# 📜 License
+
+TravelFlow is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit—just give credit where credit’s due!
+
+# 🌈 Why TravelFlow?
+
+Travel should be about making memories, not managing chaos. TravelFlow takes the stress out of planning so you can focus on the joy of discovery. Whether you're hiking Machu Picchu, sipping coffee in Paris, or road-tripping across Route 66, TravelFlow is your trusty sidekick.
+
+Join us in building the ultimate travel planning tool. Let’s make every journey unforgettable! 🌏
+
+# 📬 Contact
+
+Got questions, ideas, or just want to talk travel? Reach out!
+
+* GitHub Issues: Report bugs or suggest features here.
+* Email: [nicolas.dehaan@icloud.com]. 
+
+Happy travels, and see you on the road! 🛫
