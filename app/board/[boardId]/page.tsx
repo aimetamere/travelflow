@@ -1,5 +1,6 @@
 import { Room } from "@/components/room"; // alias to file
-import { Canvas } from "./_components/canvas";
+import { Canvas } from "./_components/canvas"; // alias to file
+import { Loading } from "./_components/loading"; // alias to file
 
 
 interface BoardIdPageProps {
@@ -11,8 +12,10 @@ interface BoardIdPageProps {
 const BoardIdPage = ({
     params,
 }: BoardIdPageProps) => {
+    return <Loading />;
+
     return (
-        <Room roomId={params.boardId}>
+        <Room roomId={params.boardId} fallback={<Loading />}>
             <Canvas boardId={params.boardId} />
         </Room>
     );
