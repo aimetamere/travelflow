@@ -90,7 +90,13 @@ npm run dev
 
 Visit http://localhost:3000 to see TravelFlow in action 🚀
 
-# 🎯 Roadmap
+
+# 📚 Project Roadmap: Collaborative Travel Canvas
+
+This document outlines the major milestones and development goals for Travel Flow.
+
+---
+## 🎯 Roadmap
 
  Liveblocks integration (basic presence, dynamic rooms)
 
@@ -105,12 +111,6 @@ Visit http://localhost:3000 to see TravelFlow in action 🚀
  Public/Private trip sharing
 
  Offline mode (stretch goal)
-
-(not done)
-
-# 📚 Project Roadmap: Collaborative Travel Canvas
-
-This document outlines the major milestones and development goals for the Collaborative Travel Canvas project.
 
 ---
 
@@ -161,15 +161,21 @@ We all ❤️ contributions from the community! Whether you're fixing bugs, addi
 
 5. Open a Pull Request: Describe your changes and submit!
 
+---
+
 # 📜 License
 
 TravelFlow is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit—just give credit where credit’s due!
+
+---
 
 # 🌈 Why TravelFlow?
 
 Travel should be about making memories, not managing chaos. TravelFlow takes the stress out of planning so you can focus on the joy of discovery. Whether you're hiking Machu Picchu, sipping coffee in Paris, or road-tripping across Route 66, TravelFlow is your trusty sidekick.
 
 Join us in building the ultimate travel planning tool. Let’s make every journey unforgettable! 🌏
+
+---
 
 # 📬 Contact
 
@@ -178,3 +184,4 @@ Got questions, ideas, or just want to talk travel? Reach out!
 * GitHub Issues: Report bugs or suggest features here.
 * Email: [nicolas.dehaan@icloud.com]. 
 
+---
