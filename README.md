@@ -108,6 +108,14 @@ Visit http://localhost:3000 to see TravelFlow in action 🚀
 
 (not done)
 
+# 🎯 For travel flow 
+
+Time Frame   | Key Goals
+             |
+0–6 months   | MVP ready, User Testing, Core UI finalized
+6–18 months  | API Integration, AI Travel Optimizer, Beta Community
+18–36 months | Public Launch, Mobile App, International Expansion
+
 # 🧑‍💻 Contributing
 
 We all ❤️ contributions from the community! Whether you're fixing bugs, adding features, or improving documentation, your input makes TravelFlow better for everyone. Here’s how to get started:
@@ -139,4 +147,3 @@ Got questions, ideas, or just want to talk travel? Reach out!
 * GitHub Issues: Report bugs or suggest features here.
 * Email: [nicolas.dehaan@icloud.com]. 
 
-Happy travels, and see you on the road! 🛫
