@@ -108,13 +108,44 @@ Visit http://localhost:3000 to see TravelFlow in action 🚀
 
 (not done)
 
-# 🎯 For travel flow 
+# 📚 Project Roadmap: Collaborative Travel Canvas
 
-Time Frame   | Key Goals
-             |
-0–6 months   | MVP ready, User Testing, Core UI finalized
-6–18 months  | API Integration, AI Travel Optimizer, Beta Community
-18–36 months | Public Launch, Mobile App, International Expansion
+This document outlines the major milestones and development goals for the Collaborative Travel Canvas project.
+
+---
+
+## 📅 Timeline Overview
+
+| Time Frame   | Key Goals                                           |
+|--------------|-----------------------------------------------------|
+| 0–6 months   | - MVP ready<br>- User Testing<br>- Core UI finalized |
+| 6–18 months  | - API Integration<br>- AI Travel Optimizer<br>- Beta Community |
+| 18–36 months | - Public Launch<br>- Mobile App<br>- International Expansion |
+
+---
+
+## 🔹 Immediate Goals (0–6 Months)
+- Finalize Core UI/UX Prototype
+- Develop MVP (Minimum Viable Product)
+- Conduct User Testing with early users
+- Refine collaborative features and basic canvas tools
+
+## 🔹 Mid-Term Goals (6–18 Months)
+- Integrate APIs for booking and travel services (Booking.com, Airbnb, Google Flights)
+- Develop an AI Travel Optimizer to enhance user planning
+- Build and manage a Beta Community for extended user feedback
+
+## 🔹 Long-Term Goals (18–36 Months)
+- Launch Public Beta Version
+- Develop Native Mobile Applications (iOS and Android)
+- Expand internationally with multilingual support and local partnerships
+
+---
+
+## 🚀 Vision
+Create a seamless, enjoyable, and intelligent travel planning experience that empowers individuals and groups to plan trips collaboratively — combining the flexibility of a canvas board with the power of AI and integrated travel services.
+
+---
 
 # 🧑‍💻 Contributing
 
