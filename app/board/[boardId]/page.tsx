@@ -1,24 +1,19 @@
-import { Room } from "@/components/room"; // alias to file
-import { Canvas } from "./_components/canvas"; // alias to file
-import { Loading } from "./_components/loading"; // alias to file
-
+import { Room } from "@/components/room";
+import { Canvas } from "./_components/canvas";
+import { Loading } from "./_components/loading";
 
 interface BoardIdPageProps {
-    params:{
-        boardId: string;
-    };
-};
+  params: {
+    boardId: string;
+  };
+}
 
-const BoardIdPage = ({
-    params,
-}: BoardIdPageProps) => {
-    return <Loading />;
-
-    return (
-        <Room roomId={params.boardId} fallback={<Loading />}>
-            <Canvas boardId={params.boardId} />
-        </Room>
-    );
+const BoardIdPage = ({ params }: BoardIdPageProps) => {
+  return (
+    <Room roomId={params.boardId} fallback={<Loading />}>
+      <Canvas boardId={params.boardId} />
+    </Room>
+  );
 };
 
 export default BoardIdPage;
