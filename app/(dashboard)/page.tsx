@@ -5,15 +5,13 @@ import { EmptyOrg } from "./_components/empty-org";
 import { BoardList } from "./_components/board-list";
 
 export default function DashboardPage({
-  params,
-  searchParams,
-}: {
-  params: {};
-  searchParams?: {
-    search?: string;
-    favorites?: string;
-  };
-}) {
+    searchParams,
+  }: {
+    searchParams?: {
+      search?: string;
+      favorites?: string;
+    };
+  }) {
   const { organization } = useOrganization();
 
   return (
