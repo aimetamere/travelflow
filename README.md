@@ -3,7 +3,7 @@
 👀 I am a student a Code University of applied science in Berlin, transitioning from a background in business management. I’m now channeling my problem-solving and analytical skills into web development.
 I'm passionate about building real-time, interactive web applications using Next.js, Convex, TypeScript, and Three.js. I began my programming journey by learning the fundamentals of C, which grounded me in low-level logic and performance. Over time, my curiosity led me to explore 3D web development, and I'm now focused on innovating in that space through projects like TravelFlow or a 3D visualisation book. 
 
-## TravelFlow 🌍✈️
+<h1 align=center><strong>TravelFlow 🌍✈️k</strong></h1>
 
 Plan your next adventure, together — on a real-time collaborative canvas.
 
