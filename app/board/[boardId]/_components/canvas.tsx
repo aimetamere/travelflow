@@ -8,7 +8,6 @@ interface CanvasProps {
 };
 
 export const Canvas = ({
-    boardId,
 }: CanvasProps) => {
     return (
         <main
